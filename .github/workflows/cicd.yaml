@@ -15,7 +15,7 @@ jobs:
           distribution: 'temurin'
           java-version: '25'
           cache: 'maven'
-#          cache-dependency-path: 'backend/pom.xml' # optional
+          cache-dependency-path: 'backend/pom.xml' # optional
       - run: |
           java -version
           java Hello.java
